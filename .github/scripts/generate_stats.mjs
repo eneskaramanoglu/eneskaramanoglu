@@ -46,6 +46,22 @@ const totalContribs = cc.contributionCalendar.totalContributions;
 const prsAndIssues = cc.totalPullRequestContributions + cc.totalIssueContributions;
 const totalRepos = viewer.repositories.totalCount;
 
+// Snapshot / High-Water Mark Protection:
+const statsPath = 'assets/github-stats.svg';
+if (fs.existsSync(statsPath)) {
+  const existing = fs.readFileSync(statsPath, 'utf8');
+  const m = existing.match(/Total Commits \(Last Year\):<\/text>\s*<text[^>]*>([\d,]+)<\/text>/);
+  if (m) {
+    const prevCommits = parseInt(m[1].replace(/,/g, ''), 10);
+    if (prevCommits > 500 && totalCommits < prevCommits * 0.6) {
+      console.log(
+        `[SNAPSHOT PROTECTION] Total commits dropped from ${prevCommits} to ${totalCommits}. Preserving existing stats & language cards!`
+      );
+      process.exit(0);
+    }
+  }
+}
+
 const statsSvg = `<svg width="467" height="195" viewBox="0 0 467 195" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
   <title>Enes Karamanoğlu's GitHub Stats, Rank: A+</title>
   <style>
