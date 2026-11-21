@@ -76,6 +76,16 @@ CORE_WORKLOADS:
 
 <img width="100%" src="https://raw.githubusercontent.com/eneskaramanoglu/eneskaramanoglu/main/assets/cyber-divider.svg" alt="divider" />
 
+### `> projects --featured`
+
+| Repository | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **[`lingocue`](https://github.com/eneskaramanoglu/lingocue)** | AI-assisted subtitle editor for Windows & macOS: word-timed ASR, LLM correction & translation, styled ASS preview & burn-in. | `C#` `.NET 10` `Avalonia` `AI / LLM` |
+| **[`gametranslate`](https://github.com/eneskaramanoglu/gametranslate)** | Real-time screen-capture OCR and low-latency (~85ms) AI subtitle translation overlay for games (PS5 Remote Play & PC). | `Python` `Gemini API` `Ollama` `OCR` |
+| **[`go-battery-monitor`](https://github.com/eneskaramanoglu/go-battery-monitor)** | Ultra-lightweight Windows tray utility monitoring battery levels of wireless mice, keyboards, headsets & controllers (~2 MB RAM). | `Go` `Pure Go` `Windows API` |
+
+<img width="100%" src="https://raw.githubusercontent.com/eneskaramanoglu/eneskaramanoglu/main/assets/cyber-divider.svg" alt="divider" />
+
 ### `> status --focus`
 
 ```diff
@@ -92,6 +102,10 @@ CORE_WORKLOADS:
 <div align="center">
   <img height="155" src="https://github-readme-stats.vercel.app/api?username=eneskaramanoglu&show_icons=true&bg_color=0D1117&title_color=00FF9C&text_color=C9D1D9&icon_color=00FF9C&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
   <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eneskaramanoglu&layout=compact&langs_count=8&bg_color=0D1117&title_color=00FF9C&text_color=C9D1D9&hide_border=true" alt="Top Languages" />
+</div>
+
+<div align="center">
+  <img height="155" src="https://github-readme-streak-stats.herokuapp.com/?user=eneskaramanoglu&background=0D1117&hide_border=true&stroke=161B22&ring=00FF9C&fire=00FF9C&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=00FF9C&sideLabels=8B949E&dates=8B949E" alt="GitHub Streak" />
 </div>
 
 <div align="center">
