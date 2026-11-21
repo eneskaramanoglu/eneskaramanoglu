@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=00FF9C&center=true&vCenter=true&multiline=true&repeat=true&width=720&height=80&lines=%3E+whoami+%E2%80%94+Enes+Karamano%C4%9Flu;%3E+Software+Developer+%7C+Backend+%E2%80%A2+AI+%E2%80%A2+Web+%26+Mobile;%3E+.NET+%E2%80%A2+Go+%E2%80%A2+Python+%E2%80%A2+Angular+%E2%80%A2+TypeScript+%E2%80%A2+Kubernetes" alt="Terminal Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=00FF9C&center=true&vCenter=false&multiline=true&repeat=true&width=760&height=105&lines=%3E+whoami+%E2%80%94+Enes+Karamano%C4%9Flu;%3E+Software+Developer+%7C+Backend+%E2%80%A2+AI+%E2%80%A2+Web+%26+Mobile;%3E+.NET+%E2%80%A2+Go+%E2%80%A2+Python+%E2%80%A2+Angular+%E2%80%A2+TypeScript+%E2%80%A2+Kubernetes" alt="Terminal Header" />
 
   <p>
     <a href="https://www.linkedin.com/in/enes-karamanoglu/"><img height="22" src="https://img.shields.io/badge/LinkedIn-enes--karamanoglu-0D1117?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwRkY5QyI%2BPHBhdGggZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02Ljg4IDguNTZhMS42OCAxLjY4IDAgMCAwIDEuNjgtMS42OGMwLS45My0uNzUtMS42OS0xLjY4LTEuNjlhMS42OSAxLjY5IDAgMCAwLTEuNjkgMS42OWMwIC45My43NiAxLjY4IDEuNjkgMS42OG0xLjM5IDkuOTR2LTguMzdINS41djguMzdoMi43N3oiLz48L3N2Zz4%3D&labelColor=161B22" alt="LinkedIn" /></a>&nbsp;
@@ -11,7 +11,7 @@
 
 </div>
 
----
+<img width="100%" src="https://raw.githubusercontent.com/eneskaramanoglu/eneskaramanoglu/main/assets/cyber-divider.svg" alt="divider" />
 
 ### `> whoami --profile`
 
@@ -29,7 +29,7 @@ CORE_WORKLOADS:
   - Infra_Sec  : Kubernetes, Docker, HashiCorp Vault, Keycloak IAM, MinIO, Pact Testing
 ```
 
----
+<img width="100%" src="https://raw.githubusercontent.com/eneskaramanoglu/eneskaramanoglu/main/assets/cyber-divider.svg" alt="divider" />
 
 ### `> stack --list`
 
@@ -74,7 +74,7 @@ CORE_WORKLOADS:
   </tr>
 </table>
 
----
+<img width="100%" src="https://raw.githubusercontent.com/eneskaramanoglu/eneskaramanoglu/main/assets/cyber-divider.svg" alt="divider" />
 
 ### `> status --focus`
 
@@ -85,7 +85,7 @@ CORE_WORKLOADS:
 + [KUBERNETES] Orchestrating containerized workloads on Kubernetes with Vault, Keycloak & CI/CD
 ```
 
----
+<img width="100%" src="https://raw.githubusercontent.com/eneskaramanoglu/eneskaramanoglu/main/assets/cyber-divider.svg" alt="divider" />
 
 ### `> metrics --github`
 
@@ -102,7 +102,7 @@ CORE_WORKLOADS:
   <img width="100%" src="https://raw.githubusercontent.com/eneskaramanoglu/eneskaramanoglu/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Animation" />
 </div>
 
----
+<img width="100%" src="https://raw.githubusercontent.com/eneskaramanoglu/eneskaramanoglu/main/assets/cyber-divider.svg" alt="divider" />
 
 <div align="center">
   <code>[SESSION ACTIVE] — enes@dev:~ &gt; _</code>
