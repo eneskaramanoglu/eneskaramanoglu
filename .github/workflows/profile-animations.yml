@@ -4,11 +4,6 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/profile-animations.yml"
 
 permissions:
   contents: write
@@ -29,15 +24,7 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
 
       - name: Enhance 3D Graph with seamless dark background and continuous rise animation
-        run: |
-          python3 -c '
-          import re
-          p = "profile-3d-contrib/profile-night-green.svg"
-          s = open(p).read()
-          s = s.replace("fill: #00000f;", "fill: #0D1117;").replace("stroke: #00000f;", "stroke: #0D1117;")
-          s = re.sub(r"values=\"([^;\"]+)\s*;\s*([^;\"]+)\"\s+dur=\"3s\"\s+repeatCount=\"1\"", r"values=\"\1;\2;\2;\1\" keyTimes=\"0;0.25;0.85;1\" dur=\"8s\" repeatCount=\"indefinite\"", s)
-          open(p, "w").write(s)
-          '
+        run: node .github/scripts/enhance_3d.mjs
 
       - name: Commit & Push 3D Graph to main
         run: |

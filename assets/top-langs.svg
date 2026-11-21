@@ -1,0 +1,56 @@
+<svg width="300" height="195" viewBox="0 0 300 195" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Most Used Languages (Public &amp; Private)</title>
+  <style>
+    .header { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #00FF9C; }
+    .sub { font: 500 10.5px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8B949E; }
+    .lang-name { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #C9D1D9; }
+    .lang-pct { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8B949E; }
+  </style>
+  <rect x="0.5" y="0.5" rx="4.5" height="99%" width="299" fill="#0D1117" stroke="none"/>
+  <g transform="translate(25, 32)">
+    <text x="0" y="0" class="header">Most Used Languages</text>
+    <text x="0" y="16" class="sub">Across Public &amp; Private Repositories</text>
+  </g>
+
+  <g transform="translate(25, 65)">
+    <clipPath id="barClip">
+      <rect x="0" y="0" width="250" height="8" rx="4"/>
+    </clipPath>
+    <g clip-path="url(#barClip)">
+      <rect x="0.0" y="0" width="165.4" height="8" fill="#7355dd"/>
+      <rect x="165.4" y="0" width="65.6" height="8" fill="#3178c6"/>
+      <rect x="231.1" y="0" width="10.5" height="8" fill="#e34c26"/>
+      <rect x="241.5" y="0" width="5.5" height="8" fill="#c6538c"/>
+      <rect x="247.0" y="0" width="5.5" height="8" fill="#3572A5"/>
+      <rect x="252.5" y="0" width="5.5" height="8" fill="#00ADD8"/>
+    </g>
+  </g>
+
+  <g transform="translate(25, 102)">
+    
+      <g transform="translate(0, 0)">
+        <circle cx="5" cy="-4" r="5" fill="#7355dd"/>
+        <text x="15" y="0" class="lang-name">C# <tspan class="lang-pct">66.2%</tspan></text>
+      </g>
+      <g transform="translate(132, 0)">
+        <circle cx="5" cy="-4" r="5" fill="#3178c6"/>
+        <text x="15" y="0" class="lang-name">TypeScript <tspan class="lang-pct">26.3%</tspan></text>
+      </g>
+      <g transform="translate(0, 25)">
+        <circle cx="5" cy="-4" r="5" fill="#e34c26"/>
+        <text x="15" y="0" class="lang-name">HTML <tspan class="lang-pct">4.2%</tspan></text>
+      </g>
+      <g transform="translate(132, 25)">
+        <circle cx="5" cy="-4" r="5" fill="#c6538c"/>
+        <text x="15" y="0" class="lang-name">SCSS <tspan class="lang-pct">1.3%</tspan></text>
+      </g>
+      <g transform="translate(0, 50)">
+        <circle cx="5" cy="-4" r="5" fill="#3572A5"/>
+        <text x="15" y="0" class="lang-name">Python <tspan class="lang-pct">1.1%</tspan></text>
+      </g>
+      <g transform="translate(132, 50)">
+        <circle cx="5" cy="-4" r="5" fill="#00ADD8"/>
+        <text x="15" y="0" class="lang-name">Go <tspan class="lang-pct">1.0%</tspan></text>
+      </g>
+  </g>
+</svg>

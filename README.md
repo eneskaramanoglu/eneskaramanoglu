@@ -100,8 +100,8 @@ CORE_WORKLOADS:
 ### `> metrics --github`
 
 <div align="center">
-  <img height="155" src="https://github-readme-stats.vercel.app/api?username=eneskaramanoglu&show_icons=true&bg_color=0D1117&title_color=00FF9C&text_color=C9D1D9&icon_color=00FF9C&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eneskaramanoglu&layout=compact&langs_count=8&bg_color=0D1117&title_color=00FF9C&text_color=C9D1D9&hide_border=true" alt="Top Languages" />
+  <img height="165" src="https://raw.githubusercontent.com/eneskaramanoglu/eneskaramanoglu/main/assets/github-stats.svg" alt="GitHub Stats (Public & Private)" />
+  <img height="165" src="https://raw.githubusercontent.com/eneskaramanoglu/eneskaramanoglu/main/assets/top-langs.svg" alt="Top Languages (Public & Private)" />
 </div>
 
 <div align="center">
